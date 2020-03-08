@@ -1,4 +1,4 @@
-function solve() {
+let solve = () => {
 
     for(let i = 0; i < 1000000000; ++i) {
         if(i % 1 == 0 && i % 2 == 0 && i % 3 == 0 && i % 4 == 0 && i % 5 == 0
@@ -9,4 +9,4 @@ function solve() {
     }
 }
 
-solve();
+solve(); //232792560

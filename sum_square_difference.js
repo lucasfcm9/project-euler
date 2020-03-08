@@ -1,4 +1,4 @@
-function solve(n) {
+let solve = (n) => {
 
     var sum = 0;
     for(var i = 1; i <= n; ++i) {
@@ -13,4 +13,4 @@ function solve(n) {
     console.log(Math.abs(s - sum));
 }
 
-solve(100);
+solve(100); //25164150
