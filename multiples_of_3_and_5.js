@@ -1,4 +1,4 @@
-function answer(limit) {
+function solve(limit) {
 
     let sum = 0;
     for(var i = 0; i < limit; i++) {
